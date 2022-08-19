@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+body {
+  margin: 0;
+  background-color: #15133C;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(241, 238, 233, 0.768627451);
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.footer-section {
+  background-color: #73777B;
+  margin-top: 315px;
+  padding-bottom: 37px;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
+.information, .resources, .help {
+  display: grid;
+  padding-left: 150px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.info-heading:before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  left: 150px;
+  display: block;
+  margin-bottom: 155px;
+  content: "";
+  border-bottom: 3px solid #15133C;
+}
+
+.resource-heading:before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  left: 150px;
+  display: block;
+  margin-bottom: 155px;
+  content: "";
+  border-bottom: 3px solid #15133C;
+}
+
+.help-heading:before {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  left: 150px;
+  display: block;
+  margin-bottom: 155px;
+  content: "";
+  border-bottom: 3px solid #15133C;
+}
+
+.copyright {
+  padding-bottom: 5px;
+  margin-top: 1px;
+  padding-right: 180px;
+  font-size: 12px;
+  display: flex;
+  justify-content: right;
+  background-color: #73777B;
+  color: rgba(241, 238, 233, 0.768627451);
+}
+
+a:hover {
+  color: #15133C;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+  a {
+    text-decoration: none;
+    color: rgba(241, 238, 233, 0.768627451);
+    padding-top: 5px;
+  }
+  h1 {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .footer-section {
+    background-color: #73777B;
+    margin-top: 315px;
+    display: grid;
+    grid-template-columns: 100%;
+    padding-left: 100px;
+  }
+  .information, .resources, .help {
+    padding: 0;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    padding-right: 90px;
+  }
+  .copyright {
+    font-size: 10px;
+    background-color: #73777B;
+    color: rgba(241, 238, 233, 0.768627451);
+    padding-right: 90px;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 804px) {
+  .info-heading:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    left: 150px;
+    display: block;
+    margin-bottom: 155px;
+    content: "";
+    border-bottom: 0px solid #15133C;
+  }
+  .resource-heading:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    left: 25px;
+    display: block;
+    margin-bottom: 100px;
+    content: "";
+    border-bottom: 0px solid #15133C;
+  }
+  .help-heading:before {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    left: 60px;
+    display: block;
+    margin-bottom: 100px;
+    content: "";
+    border-bottom: 0px solid #15133C;
+  }
+}/*# sourceMappingURL=style.css.map */
