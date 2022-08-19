@@ -5,7 +5,7 @@
 
 - Responsive footer using html and css 🛠
 - Basic footer design with responsive future.
-- footer with light colours
+- footer design with light colours
 - colors used from COLOR HUNT
 
 ## Screenshots
