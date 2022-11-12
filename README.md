@@ -8,7 +8,7 @@
 - footer design with light colours
 - colors used from COLOR HUNT
 
-## Screenshots
+## Screenshots ...
 
 ![Preview](./assets/images/preview.jpg)
 
