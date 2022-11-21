@@ -10,6 +10,6 @@
 
 ## Screenshots ...
 
-![Preview](./assets/images/preview.jpg)
+![Preview](./assets/images/preview.png)
 
 
