@@ -8,6 +8,8 @@
 - footer design with light colours
 - colors used from COLOR HUNT
 
+[Live Link](https://prasoonmohan-responsive-footer.netlify.app/)
+
 ## Screenshots ...
 
 ![Preview](./assets/images/preview.png)
